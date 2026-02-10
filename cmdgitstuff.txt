@@ -1,0 +1,67 @@
+Microsoft Windows [Version 10.0.19045.6466]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Lab-9>git --version
+git version 2.53.0.windows.1
+
+C:\Users\Lab-9>git config --global user name = "Ashish Kumar Yadav"
+error: no action specified
+
+C:\Users\Lab-9>git config --global user name = "ashish4828"
+error: no action specified
+
+C:\Users\Lab-9>git config --global user.name = "Ashish Kumar Yadav"
+
+C:\Users\Lab-9>git config --global user.email = "ashishyadav4828@gmail.com"
+
+C:\Users\Lab-9>git config --global --list
+user.name=sakshi
+user.email=sakshitripathi993@gmail.com
+user.name==
+user.email==
+
+C:\Users\Lab-9>mkdir backend--ashish
+
+C:\Users\Lab-9>cd backend--ashish
+
+C:\Users\Lab-9\backend--ashish>git init
+Initialized empty Git repository in C:/Users/Lab-9/backend--ashish/.git/
+
+C:\Users\Lab-9\backend--ashish>mkdir src config routes controllers service models middlewares utils tests touch README.md.gitignore
+
+C:\Users\Lab-9\backend--ashish>git config --global user name = "Ashish Kumar Yadav"
+error: no action specified
+
+C:\Users\Lab-9\backend--ashish>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Users\Lab-9\backend--ashish>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+
+C:\Users\Lab-9\backend--ashish>git add .
+
+C:\Users\Lab-9\backend--ashish>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Users\Lab-9\backend--ashish>notepad hello.java
+
+C:\Users\Lab-9\backend--ashish>git add hello.java
+
+C:\Users\Lab-9\backend--ashish>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hello.java
